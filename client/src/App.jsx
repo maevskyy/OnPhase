@@ -22,7 +22,7 @@ const App = () => {
 
 	const [isSerchOpen, setIsSerchOpen] = useState(false);
 	//!fix it
-	const [_, setDeleteRefresh] = useState(false);
+	const [_, setDeleteRefresh] = useState(false)
 	useEffect(() => {
 		if (document.cookie) {
 			// axios.get('/user/fetchUser').then(res => console.log(res.data))
